@@ -11,54 +11,113 @@
     </head>
 
     <body>
+        <div class="Location">
+            <h1>Lethbridge</h1>
+        </div>
+        <span id="temp"></span>
+        <i class="wi wi-celsius
+        "></i>
+        <i class="wi wi-cloudy"></i>
+        <p>Description: <span id="description"></span></p>
 
         <div class="grid-parent">
+
             <div class="item-1">
-                <h1>Lethbridge</h1>
+                    <i class="wi wi-humidity"></i>
+                    Humidity: <span id="humidity"></span>%
             </div>
 
             <div class="item-2">
-                <i class="wi wi-humidity"> Humidity: </i>
-                <span id="humidity"></span>
-                <h3> Temperature: </h3>
-                <span id="temp"></span>
-                <h3> Wind: </h3>
-                <span id="wind"></span>
-                <h3> Max: </h3>
-                <span id="maxtemp"></span>
-                <h3> Min: </h3>
-                <span id="mintemp"></span>
-                <h3> Description: </h3>
-                <span id="description"></span>
+                <i class="wi wi-strong-wind"></i>
+                Wind: <span id="wind"></span>km/h
             </div>
 
             <div class="item-3">
-                <h3>Thursday</h3>
-                <i class="wi wi-day-snow"></i>
-            </div>
-
-            <div class="item-4">
-                <h3>Friday</h3>
-                <i class="wi wi-snow">
-            </div>
-
-            <div class="item-5">
-                <h3>Saturday</h3>
-                <i class="wi wi-day-cloudy">
-            </div>
-
-            <div class="item-6">
-                <h3>Sunday</h3>
-                <i class="wi wi-rain">
-            </div>
-
-            <div class="item-7">
-                <h3>Monday</h3>
-                <i class="wi wi-day-sunny">
+                <p class="high">Max: 
+                    <span id="maxtemp"></span>
+                    <i class="wi wi-celsius"></i>
+                </p>
+                <p class="low">Min: 
+                    <span id="mintemp"></span>
+                    <i class="wi wi-celsius"></i>
+                </p>
             </div>
 
         </div>
+
+        <div class="grid-parent">
+            <div class="item-4">
+                <h3>Thursday</h3>
+                <i class="wi wi-day-snow"></i>
+            </div>
+            <div class="item-5">
+                <p class="high">-4
+                    <i class="wi wi-celsius"></i>
+                </p>
+                <p class="low">-16
+                    <i class="wi wi-celsius"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="grid-parent">
+            <div class="item-4">
+                <h3>Friday</h3>
+                <i class="wi wi-snow"></i>
+            </div>
+            <div class="item-5">
+                <p class="high">3
+                    <i class="wi wi-celsius"></i>
+                </p>
+                <p class="low">-3
+                    <i class="wi wi-celsius"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="grid-parent">
+            <div class="item-4">
+                <h3>Saturday</h3>
+                <i class="wi wi-day-cloudy"></i>
+            </div>
+            <div class="item-5">
+                <p class="high">8
+                    <i class="wi wi-celsius"></i>
+                </p>
+                <p class="low">3
+                    <i class="wi wi-celsius"></i>    
+                </p>
+            </div>
+        </div>
+        <div class="grid-parent">
+            <div class="item-4">
+                <h3>Sunday</h3>
+                <i class="wi wi-rain"></i>
+            </div>
+            <div class="item-5">
+                <p class="high">5
+                    <i class="wi wi-celsius"></i>
+                </p>
+                <p class="low">3
+                    <i class="wi wi-celsius"></i>
+                </p>
+            </div>
+        </div>
+        <div class="grid-parent">
+            <div class="item-4">
+                <h3>Monday</h3>
+                <i class="wi wi-day-sunny"></i>
+            </div>
+            <div class="item-5">
+                <p class="high">-2
+                    <i class="wi wi-celsius"></i>
+                </p>
+                <p class="low">-12
+                    <i class="wi wi-celsius"></i>
+                </p>
+            </div>
+        </div>
         <script src="js/weatherapp.js"></script>
-         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
     </body>
 </html>
