@@ -10,14 +10,19 @@ body, html{
 body{
 	text-align: center;
 
-	 background-image: url(P1010712-2.jpg);
+	 background-image: url(https://images.pexels.com/photos/875858/pexels-photo-875858.png?auto=compress&cs=tinysrgb&h=650&w=940);
+	 /* image by João Jesus */
 	 background-size: cover;
+	 background-position: bottom;
 }
 
 h1, h3{
 	text-align: center;
 }
 
+.today i{
+	transform: scale(4.5);
+}
 
 .grid-parent{
 	grid-template-columns: repeat(3, 1fr);
